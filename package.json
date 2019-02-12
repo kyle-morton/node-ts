@@ -1,0 +1,31 @@
+{
+  "name": "node-ts-example",
+  "version": "0.1.0",
+  "description": "api to demonstrate node & typescript",
+  "main": "Index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-ts": "ts-node Index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylemorton5770/node-ts.git"
+  },
+  "author": "kyle morton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylemorton5770/node-ts/issues"
+  },
+  "homepage": "https://github.com/kylemorton5770/node-ts#readme",
+  "dependencies": {
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^11.9.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "typescript-eslint-parser": "^22.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3"
+  }
+}
